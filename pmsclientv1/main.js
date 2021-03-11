@@ -502,7 +502,7 @@ AuthService.ɵfac = function AuthService_Factory(t) { return new (t || AuthServi
 AuthService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineInjectable"]({ token: AuthService, factory: AuthService.ɵfac, providedIn: 'root' });
 function getClientSettings() {
     return {
-        authority: 'http://40.87.98.225:30000',
+        authority: 'http://mircok8sserver.eastus.cloudapp.azure.com:30000',
         client_id: 'angular_spa',
         redirect_uri: 'http://40.87.98.225:4200/auth-callback',
         post_logout_redirect_uri: 'http://40.87.98.225:4200/',
@@ -533,10 +533,10 @@ __webpack_require__.r(__webpack_exports__);
 class ConfigService {
     constructor() { }
     get authApiURI() {
-        return 'http://40.87.98.225:30000/api';
+        return 'http://mircok8sserver.eastus.cloudapp.azure.com:30000/api';
     }
     get resourceApiURI() {
-        return 'http://40.87.98.225:61006/api';
+        return 'http://mircok8sserver.eastus.cloudapp.azure.com:61006/api';
     }
     get tempResourseAPI() {
         return 'http://40.87.98.225:3000';
