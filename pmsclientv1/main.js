@@ -539,13 +539,13 @@ class ConfigService {
         return 'http://mircok8sserver.eastus.cloudapp.azure.com:61006/api';
     }
     get tempResourseAPI() {
-        return 'http://40.87.98.225:3000';
+        return 'http://mircok8sserver.eastus.cloudapp.azure.com:3000';
     }
     get patientManagementAPI() {
-        return 'http://40.87.98.225:54877/api';
+        return 'http://mircok8sserver.eastus.cloudapp.azure.com:54877/api';
     }
     get scheduleManagementAPI() {
-        return 'http://40.87.98.225:56207/api';
+        return 'http://mircok8sserver.eastus.cloudapp.azure.com:56207/api';
     }
 }
 ConfigService.ɵfac = function ConfigService_Factory(t) { return new (t || ConfigService)(); };
