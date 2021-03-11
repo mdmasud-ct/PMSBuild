@@ -504,14 +504,14 @@ function getClientSettings() {
     return {
         authority: 'http://mircok8sserver.eastus.cloudapp.azure.com:30000',
         client_id: 'angular_spa',
-        redirect_uri: 'http://40.87.98.225:4200/auth-callback',
-        post_logout_redirect_uri: 'http://40.87.98.225:4200/',
+        redirect_uri: 'http://mircok8sserver.eastus.cloudapp.azure.com:4200/auth-callback',
+        post_logout_redirect_uri: 'http://mircok8sserver.eastus.cloudapp.azure.com:4200/',
         response_type: "id_token token",
         scope: "openid profile email api.read",
         filterProtocolClaims: true,
         loadUserInfo: true,
         automaticSilentRenew: true,
-        silent_redirect_uri: 'http://40.87.98.225:4200/silent-refresh.html'
+        silent_redirect_uri: 'http://mircok8sserver.eastus.cloudapp.azure.com:4200/silent-refresh.html'
     };
 }
 
