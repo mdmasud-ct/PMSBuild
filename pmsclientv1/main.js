@@ -524,14 +524,14 @@ function getClientSettings() {
         // silent_redirect_uri: 'http://mircok8sserver.eastus.cloudapp.azure.com:4200/silent-refresh.html'
         authority: 'http://51.143.105.153',
         client_id: 'angular_spa',
-        redirect_uri: 'http://40.91.119.168/auth-callback',
-        post_logout_redirect_uri: 'http://40.91.119.168/',
+        redirect_uri: 'http://20.69.71.251/auth-callback',
+        post_logout_redirect_uri: 'http://20.69.71.251/',
         response_type: "id_token token",
         scope: "openid profile email api.read",
         filterProtocolClaims: true,
         loadUserInfo: true,
         automaticSilentRenew: true,
-        silent_redirect_uri: 'http://40.91.119.168/silent-refresh.html'
+        silent_redirect_uri: 'http://20.69.71.251/silent-refresh.html'
     };
 }
 
