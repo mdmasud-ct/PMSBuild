@@ -502,16 +502,36 @@ AuthService.ɵfac = function AuthService_Factory(t) { return new (t || AuthServi
 AuthService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineInjectable"]({ token: AuthService, factory: AuthService.ɵfac, providedIn: 'root' });
 function getClientSettings() {
     return {
-        authority: 'http://mircok8sserver.eastus.cloudapp.azure.com:30000',
+        // authority: 'http://localhost:60970',
+        // client_id: 'angular_spa',
+        // redirect_uri: 'http://localhost:4200/auth-callback',
+        // post_logout_redirect_uri: 'http://localhost:4200/',
+        // response_type:"id_token token",
+        // scope:"openid profile email api.read",
+        // filterProtocolClaims: true,
+        // loadUserInfo: true,
+        // automaticSilentRenew: true,
+        // silent_redirect_uri: 'http://localhost:4200/silent-refresh.html'
+        // authority: 'http://mircok8sserver.eastus.cloudapp.azure.com:30000',
+        // client_id: 'angular_spa',
+        // redirect_uri: 'http://mircok8sserver.eastus.cloudapp.azure.com:4200/auth-callback',
+        // post_logout_redirect_uri: 'http://mircok8sserver.eastus.cloudapp.azure.com:4200/',
+        // response_type:"id_token token",
+        // scope:"openid profile email api.read",
+        // filterProtocolClaims: true,
+        // loadUserInfo: true,
+        // automaticSilentRenew: true,
+        // silent_redirect_uri: 'http://mircok8sserver.eastus.cloudapp.azure.com:4200/silent-refresh.html'
+        authority: 'http://51.143.105.153',
         client_id: 'angular_spa',
-        redirect_uri: 'http://mircok8sserver.eastus.cloudapp.azure.com:4200/auth-callback',
-        post_logout_redirect_uri: 'http://mircok8sserver.eastus.cloudapp.azure.com:4200/',
+        redirect_uri: 'http://40.91.119.168/auth-callback',
+        post_logout_redirect_uri: 'http://40.91.119.168/',
         response_type: "id_token token",
         scope: "openid profile email api.read",
         filterProtocolClaims: true,
         loadUserInfo: true,
         automaticSilentRenew: true,
-        silent_redirect_uri: 'http://mircok8sserver.eastus.cloudapp.azure.com:4200/silent-refresh.html'
+        silent_redirect_uri: 'http://40.91.119.168/silent-refresh.html'
     };
 }
 
@@ -533,19 +553,19 @@ __webpack_require__.r(__webpack_exports__);
 class ConfigService {
     constructor() { }
     get authApiURI() {
-        return 'http://mircok8sserver.eastus.cloudapp.azure.com:30000/api';
+        return 'http://51.143.105.153/api';
     }
     get resourceApiURI() {
-        return 'http://mircok8sserver.eastus.cloudapp.azure.com:61006/api';
+        return 'http://localhost:61006/api';
     }
     get tempResourseAPI() {
-        return 'http://mircok8sserver.eastus.cloudapp.azure.com:3000';
+        return 'http://localhost:3000';
     }
     get patientManagementAPI() {
-        return 'http://mircok8sserver.eastus.cloudapp.azure.com:54877/api';
+        return 'http://localhost:54877/api';
     }
     get scheduleManagementAPI() {
-        return 'http://mircok8sserver.eastus.cloudapp.azure.com:56207/api';
+        return 'http://localhost:56207/api';
     }
 }
 ConfigService.ɵfac = function ConfigService_Factory(t) { return new (t || ConfigService)(); };
