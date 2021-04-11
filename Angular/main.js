@@ -678,49 +678,49 @@ var ConfigService = /** @class */ (function () {
     }
     Object.defineProperty(ConfigService.prototype, "authApiURI", {
         get: function () {
-            return 'http://localhost:52778/api';
+            return 'http://impactgrp2.eastus.cloudapp.azure.com:52778/api';
         },
         enumerable: false,
         configurable: true
     });
     Object.defineProperty(ConfigService.prototype, "resourceApiURI", {
         get: function () {
-            return 'http://localhost:61006/api';
+            return 'http://impactgrp2.eastus.cloudapp.azure.com:61006/api';
         },
         enumerable: false,
         configurable: true
     });
     Object.defineProperty(ConfigService.prototype, "tempResourseAPI", {
         get: function () {
-            return 'http://localhost:3000';
+            return 'http://impactgrp2.eastus.cloudapp.azure.com:3000';
         },
         enumerable: false,
         configurable: true
     });
     Object.defineProperty(ConfigService.prototype, "adminApiUri", {
         get: function () {
-            return 'http://localhost:55921';
+            return 'http://impactgrp2.eastus.cloudapp.azure.com:55921';
         },
         enumerable: false,
         configurable: true
     });
     Object.defineProperty(ConfigService.prototype, "patientManagementAPI", {
         get: function () {
-            return 'http://localhost:54877/api';
+            return 'http://impactgrp2.eastus.cloudapp.azure.com:54877/api';
         },
         enumerable: false,
         configurable: true
     });
     Object.defineProperty(ConfigService.prototype, "scheduleManagementAPI", {
         get: function () {
-            return 'http://localhost:56207/api';
+            return 'http://impactgrp2.eastus.cloudapp.azure.com:56207/api';
         },
         enumerable: false,
         configurable: true
     });
     Object.defineProperty(ConfigService.prototype, "patientVisitManagementAPI", {
         get: function () {
-            return 'http://localhost:61307/api';
+            return 'http://impactgrp2.eastus.cloudapp.azure.com:61307/api';
         },
         enumerable: false,
         configurable: true
